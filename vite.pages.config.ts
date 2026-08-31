@@ -4,7 +4,7 @@ import { resolve } from 'node:path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  root: resolve(import.meta.dirname, 'pages'),
+  root: resolve(import.meta.dirname, 'static-site'),
   publicDir: resolve(import.meta.dirname, 'public'),
   base: './',
   css: { postcss: { plugins: [tailwindcss()] } },
