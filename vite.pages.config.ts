@@ -1,0 +1,16 @@
+import react from '@vitejs/plugin-react';
+import tailwindcss from '@tailwindcss/postcss';
+import { resolve } from 'node:path';
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+  root: resolve(import.meta.dirname, 'pages'),
+  publicDir: resolve(import.meta.dirname, 'public'),
+  base: './',
+  css: { postcss: { plugins: [tailwindcss()] } },
+  plugins: [react()],
+  build: {
+    outDir: resolve(import.meta.dirname, 'dist-pages'),
+    emptyOutDir: true,
+  },
+});

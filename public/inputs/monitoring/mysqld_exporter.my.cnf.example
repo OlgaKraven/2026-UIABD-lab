@@ -1,0 +1,5 @@
+[client]
+user=monitoring_USER_SUFFIX
+password=SET_LOCALLY_AND_DO_NOT_SUBMIT
+host=127.0.0.1
+port=MYSQL_PORT_FROM_VARIANT

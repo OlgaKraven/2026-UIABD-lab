@@ -1,0 +1,7 @@
+2026-08-20T14:08:12.094Z 0 [Warning] [MY-012149] [InnoDB] 805306368 bytes should have been written. Only 201326592 bytes written. Retrying.
+2026-08-20T14:13:55.218Z 0 [Warning] [MY-012638] [InnoDB] Write retry attempts are increasing
+2026-08-20T14:18:43.502Z 0 [ERROR] [MY-012267] [InnoDB] Unable to extend './#innodb_redo/#ib_redo9_tmp': No space left on device
+2026-08-20T14:18:43.509Z 0 [ERROR] [MY-013183] [InnoDB] Redo log write failed
+2026-08-20T14:18:43.514Z 0 [ERROR] [MY-010119] [Server] Aborting
+2026-08-20T14:29:18.004Z 0 [Note] [MY-012910] [InnoDB] Starting crash recovery
+2026-08-20T14:29:32.811Z 0 [Note] [MY-010931] [Server] Ready for connections. Version: '8.4.0'

@@ -1,0 +1,4 @@
+option,cpu_cores,ram_gib,nvme_usable_gib,sustained_network_mbps,monthly_cost_units
+A,8,32,1024,300,82
+B,12,64,2048,600,128
+C,16,96,4096,1000,196

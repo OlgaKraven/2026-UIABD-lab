@@ -1,0 +1,6 @@
+check,expected,evidence_command,actual,status,comment
+OS service,RUNNING,sc query <service>,,,
+Listening port,variant port,Get-NetTCPConnection -State Listen,,, 
+Server response,mysqld is alive,mysqladmin ping,,, 
+SQL connection,one row returned,"SELECT CONNECTION_ID(), @@port, @@datadir;",,,
+Configuration consistency,all values match,compare evidence,,,

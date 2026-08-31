@@ -1,0 +1,20 @@
+2026-02-12T09:12:04.011Z 8 [Warning] [MY-010055] [Server] IP address '10.0.2.19' could not be resolved
+2026-02-12T09:14:48.205Z 0 [Note] [MY-012910] [InnoDB] Starting crash recovery
+2026-02-12T09:15:10.448Z 0 [Warning] [MY-012638] [InnoDB] Retry attempts for reading a page failed
+2026-02-12T09:15:11.017Z 0 [ERROR] [MY-013183] [InnoDB] Assertion failure in page validation; page 42:17
+2026-02-12T09:15:11.022Z 0 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2026-02-12T09:15:11.024Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed
+2026-02-12T09:15:11.026Z 0 [ERROR] [MY-010119] [Server] Aborting
+2026-02-12T10:00:02.110Z 0 [Note] [MY-010931] [Server] Ready for connections. Version: '8.4.0'
+2026-02-12T10:02:44.782Z 22 [Warning] [MY-010055] [Server] Host name lookup failed for '10.0.2.55'
+2026-02-12T10:03:12.013Z 0 [ERROR] [MY-000067] [Server] unknown variable 'max_connection=300'
+2026-02-12T10:03:12.015Z 0 [ERROR] [MY-010119] [Server] Aborting
+2026-02-12T11:42:17.101Z 0 [Warning] [MY-012149] [InnoDB] Disk is full writing './#innodb_redo/#ib_redo8_tmp'
+2026-02-12T11:43:06.851Z 0 [ERROR] [MY-012267] [InnoDB] Unable to extend redo log file
+2026-02-12T11:43:07.101Z 0 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2026-02-12T13:06:17.411Z 0 [ERROR] [MY-010262] [Server] Can't start server: Bind on TCP/IP port: Address already in use
+2026-02-12T13:06:17.414Z 0 [ERROR] [MY-010119] [Server] Aborting
+2026-02-12T14:21:31.210Z 0 [ERROR] [MY-013183] [InnoDB] Log sequence number is in the future
+2026-02-12T14:21:31.216Z 0 [ERROR] [MY-010119] [Server] Aborting
+2026-02-12T15:34:01.002Z 0 [ERROR] [MY-010262] [Server] Can't start server: Bind on TCP/IP port: Address already in use
+2026-02-12T15:34:01.004Z 0 [ERROR] [MY-010119] [Server] Aborting

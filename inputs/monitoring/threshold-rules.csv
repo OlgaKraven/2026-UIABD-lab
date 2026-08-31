@@ -1,0 +1,5 @@
+rule_id,metric,direction,warning,critical,window,required_samples
+R01,connections_used_pct,above,65,80,5m,2
+R02,p95_query_seconds,above,0.8,1.5,10m,2
+R03,disk_free_pct,below,25,15,15m,3
+R04,error_rate_per_min,above,3,8,5m,2

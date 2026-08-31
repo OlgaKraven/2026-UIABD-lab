@@ -1,0 +1,785 @@
+{
+  "description": "Учебный аналог файла Заказчики.json; выберите записи своего варианта",
+  "variants": {
+    "01": [
+      {
+        "customer_id": 101,
+        "name": "Заказчик 01-1",
+        "email": "client011@example.test",
+        "rating": 3
+      },
+      {
+        "customer_id": 102,
+        "name": "Заказчик 01-2",
+        "email": "client012@example.test",
+        "rating": 4
+      },
+      {
+        "customer_id": 103,
+        "name": "Заказчик 01-3",
+        "email": "client013@example.test",
+        "rating": 5
+      },
+      {
+        "customer_id": 104,
+        "name": "Заказчик 01-4",
+        "email": "client014@example.test",
+        "rating": 1
+      }
+    ],
+    "02": [
+      {
+        "customer_id": 201,
+        "name": "Заказчик 02-1",
+        "email": "client021@example.test",
+        "rating": 4
+      },
+      {
+        "customer_id": 202,
+        "name": "Заказчик 02-2",
+        "email": "client022@example.test",
+        "rating": 5
+      },
+      {
+        "customer_id": 203,
+        "name": "Заказчик 02-3",
+        "email": "client023@example.test",
+        "rating": 1
+      },
+      {
+        "customer_id": 204,
+        "name": "Заказчик 02-4",
+        "email": "client024@example.test",
+        "rating": 2
+      }
+    ],
+    "03": [
+      {
+        "customer_id": 301,
+        "name": "Заказчик 03-1",
+        "email": "client031@example.test",
+        "rating": 5
+      },
+      {
+        "customer_id": 302,
+        "name": "Заказчик 03-2",
+        "email": "client032@example.test",
+        "rating": 1
+      },
+      {
+        "customer_id": 303,
+        "name": "Заказчик 03-3",
+        "email": "client033@example.test",
+        "rating": 2
+      },
+      {
+        "customer_id": 304,
+        "name": "Заказчик 03-4",
+        "email": "client034@example.test",
+        "rating": 3
+      }
+    ],
+    "04": [
+      {
+        "customer_id": 401,
+        "name": "Заказчик 04-1",
+        "email": "client041@example.test",
+        "rating": 1
+      },
+      {
+        "customer_id": 402,
+        "name": "Заказчик 04-2",
+        "email": "client042@example.test",
+        "rating": 2
+      },
+      {
+        "customer_id": 403,
+        "name": "Заказчик 04-3",
+        "email": "client043@example.test",
+        "rating": 3
+      },
+      {
+        "customer_id": 404,
+        "name": "Заказчик 04-4",
+        "email": "client044@example.test",
+        "rating": 4
+      }
+    ],
+    "05": [
+      {
+        "customer_id": 501,
+        "name": "Заказчик 05-1",
+        "email": "client051@example.test",
+        "rating": 2
+      },
+      {
+        "customer_id": 502,
+        "name": "Заказчик 05-2",
+        "email": "client052@example.test",
+        "rating": 3
+      },
+      {
+        "customer_id": 503,
+        "name": "Заказчик 05-3",
+        "email": "client053@example.test",
+        "rating": 4
+      },
+      {
+        "customer_id": 504,
+        "name": "Заказчик 05-4",
+        "email": "client054@example.test",
+        "rating": 5
+      }
+    ],
+    "06": [
+      {
+        "customer_id": 601,
+        "name": "Заказчик 06-1",
+        "email": "client061@example.test",
+        "rating": 3
+      },
+      {
+        "customer_id": 602,
+        "name": "Заказчик 06-2",
+        "email": "client062@example.test",
+        "rating": 4
+      },
+      {
+        "customer_id": 603,
+        "name": "Заказчик 06-3",
+        "email": "client063@example.test",
+        "rating": 5
+      },
+      {
+        "customer_id": 604,
+        "name": "Заказчик 06-4",
+        "email": "client064@example.test",
+        "rating": 1
+      }
+    ],
+    "07": [
+      {
+        "customer_id": 701,
+        "name": "Заказчик 07-1",
+        "email": "client071@example.test",
+        "rating": 4
+      },
+      {
+        "customer_id": 702,
+        "name": "Заказчик 07-2",
+        "email": "client072@example.test",
+        "rating": 5
+      },
+      {
+        "customer_id": 703,
+        "name": "Заказчик 07-3",
+        "email": "client073@example.test",
+        "rating": 1
+      },
+      {
+        "customer_id": 704,
+        "name": "Заказчик 07-4",
+        "email": "client074@example.test",
+        "rating": 2
+      }
+    ],
+    "08": [
+      {
+        "customer_id": 801,
+        "name": "Заказчик 08-1",
+        "email": "client081@example.test",
+        "rating": 5
+      },
+      {
+        "customer_id": 802,
+        "name": "Заказчик 08-2",
+        "email": "client082@example.test",
+        "rating": 1
+      },
+      {
+        "customer_id": 803,
+        "name": "Заказчик 08-3",
+        "email": "client083@example.test",
+        "rating": 2
+      },
+      {
+        "customer_id": 804,
+        "name": "Заказчик 08-4",
+        "email": "client084@example.test",
+        "rating": 3
+      }
+    ],
+    "09": [
+      {
+        "customer_id": 901,
+        "name": "Заказчик 09-1",
+        "email": "client091@example.test",
+        "rating": 1
+      },
+      {
+        "customer_id": 902,
+        "name": "Заказчик 09-2",
+        "email": "client092@example.test",
+        "rating": 2
+      },
+      {
+        "customer_id": 903,
+        "name": "Заказчик 09-3",
+        "email": "client093@example.test",
+        "rating": 3
+      },
+      {
+        "customer_id": 904,
+        "name": "Заказчик 09-4",
+        "email": "client094@example.test",
+        "rating": 4
+      }
+    ],
+    "10": [
+      {
+        "customer_id": 1001,
+        "name": "Заказчик 10-1",
+        "email": "client101@example.test",
+        "rating": 2
+      },
+      {
+        "customer_id": 1002,
+        "name": "Заказчик 10-2",
+        "email": "client102@example.test",
+        "rating": 3
+      },
+      {
+        "customer_id": 1003,
+        "name": "Заказчик 10-3",
+        "email": "client103@example.test",
+        "rating": 4
+      },
+      {
+        "customer_id": 1004,
+        "name": "Заказчик 10-4",
+        "email": "client104@example.test",
+        "rating": 5
+      }
+    ],
+    "11": [
+      {
+        "customer_id": 1101,
+        "name": "Заказчик 11-1",
+        "email": "client111@example.test",
+        "rating": 3
+      },
+      {
+        "customer_id": 1102,
+        "name": "Заказчик 11-2",
+        "email": "client112@example.test",
+        "rating": 4
+      },
+      {
+        "customer_id": 1103,
+        "name": "Заказчик 11-3",
+        "email": "client113@example.test",
+        "rating": 5
+      },
+      {
+        "customer_id": 1104,
+        "name": "Заказчик 11-4",
+        "email": "client114@example.test",
+        "rating": 1
+      }
+    ],
+    "12": [
+      {
+        "customer_id": 1201,
+        "name": "Заказчик 12-1",
+        "email": "client121@example.test",
+        "rating": 4
+      },
+      {
+        "customer_id": 1202,
+        "name": "Заказчик 12-2",
+        "email": "client122@example.test",
+        "rating": 5
+      },
+      {
+        "customer_id": 1203,
+        "name": "Заказчик 12-3",
+        "email": "client123@example.test",
+        "rating": 1
+      },
+      {
+        "customer_id": 1204,
+        "name": "Заказчик 12-4",
+        "email": "client124@example.test",
+        "rating": 2
+      }
+    ],
+    "13": [
+      {
+        "customer_id": 1301,
+        "name": "Заказчик 13-1",
+        "email": "client131@example.test",
+        "rating": 5
+      },
+      {
+        "customer_id": 1302,
+        "name": "Заказчик 13-2",
+        "email": "client132@example.test",
+        "rating": 1
+      },
+      {
+        "customer_id": 1303,
+        "name": "Заказчик 13-3",
+        "email": "client133@example.test",
+        "rating": 2
+      },
+      {
+        "customer_id": 1304,
+        "name": "Заказчик 13-4",
+        "email": "client134@example.test",
+        "rating": 3
+      }
+    ],
+    "14": [
+      {
+        "customer_id": 1401,
+        "name": "Заказчик 14-1",
+        "email": "client141@example.test",
+        "rating": 1
+      },
+      {
+        "customer_id": 1402,
+        "name": "Заказчик 14-2",
+        "email": "client142@example.test",
+        "rating": 2
+      },
+      {
+        "customer_id": 1403,
+        "name": "Заказчик 14-3",
+        "email": "client143@example.test",
+        "rating": 3
+      },
+      {
+        "customer_id": 1404,
+        "name": "Заказчик 14-4",
+        "email": "client144@example.test",
+        "rating": 4
+      }
+    ],
+    "15": [
+      {
+        "customer_id": 1501,
+        "name": "Заказчик 15-1",
+        "email": "client151@example.test",
+        "rating": 2
+      },
+      {
+        "customer_id": 1502,
+        "name": "Заказчик 15-2",
+        "email": "client152@example.test",
+        "rating": 3
+      },
+      {
+        "customer_id": 1503,
+        "name": "Заказчик 15-3",
+        "email": "client153@example.test",
+        "rating": 4
+      },
+      {
+        "customer_id": 1504,
+        "name": "Заказчик 15-4",
+        "email": "client154@example.test",
+        "rating": 5
+      }
+    ],
+    "16": [
+      {
+        "customer_id": 1601,
+        "name": "Заказчик 16-1",
+        "email": "client161@example.test",
+        "rating": 3
+      },
+      {
+        "customer_id": 1602,
+        "name": "Заказчик 16-2",
+        "email": "client162@example.test",
+        "rating": 4
+      },
+      {
+        "customer_id": 1603,
+        "name": "Заказчик 16-3",
+        "email": "client163@example.test",
+        "rating": 5
+      },
+      {
+        "customer_id": 1604,
+        "name": "Заказчик 16-4",
+        "email": "client164@example.test",
+        "rating": 1
+      }
+    ],
+    "17": [
+      {
+        "customer_id": 1701,
+        "name": "Заказчик 17-1",
+        "email": "client171@example.test",
+        "rating": 4
+      },
+      {
+        "customer_id": 1702,
+        "name": "Заказчик 17-2",
+        "email": "client172@example.test",
+        "rating": 5
+      },
+      {
+        "customer_id": 1703,
+        "name": "Заказчик 17-3",
+        "email": "client173@example.test",
+        "rating": 1
+      },
+      {
+        "customer_id": 1704,
+        "name": "Заказчик 17-4",
+        "email": "client174@example.test",
+        "rating": 2
+      }
+    ],
+    "18": [
+      {
+        "customer_id": 1801,
+        "name": "Заказчик 18-1",
+        "email": "client181@example.test",
+        "rating": 5
+      },
+      {
+        "customer_id": 1802,
+        "name": "Заказчик 18-2",
+        "email": "client182@example.test",
+        "rating": 1
+      },
+      {
+        "customer_id": 1803,
+        "name": "Заказчик 18-3",
+        "email": "client183@example.test",
+        "rating": 2
+      },
+      {
+        "customer_id": 1804,
+        "name": "Заказчик 18-4",
+        "email": "client184@example.test",
+        "rating": 3
+      }
+    ],
+    "19": [
+      {
+        "customer_id": 1901,
+        "name": "Заказчик 19-1",
+        "email": "client191@example.test",
+        "rating": 1
+      },
+      {
+        "customer_id": 1902,
+        "name": "Заказчик 19-2",
+        "email": "client192@example.test",
+        "rating": 2
+      },
+      {
+        "customer_id": 1903,
+        "name": "Заказчик 19-3",
+        "email": "client193@example.test",
+        "rating": 3
+      },
+      {
+        "customer_id": 1904,
+        "name": "Заказчик 19-4",
+        "email": "client194@example.test",
+        "rating": 4
+      }
+    ],
+    "20": [
+      {
+        "customer_id": 2001,
+        "name": "Заказчик 20-1",
+        "email": "client201@example.test",
+        "rating": 2
+      },
+      {
+        "customer_id": 2002,
+        "name": "Заказчик 20-2",
+        "email": "client202@example.test",
+        "rating": 3
+      },
+      {
+        "customer_id": 2003,
+        "name": "Заказчик 20-3",
+        "email": "client203@example.test",
+        "rating": 4
+      },
+      {
+        "customer_id": 2004,
+        "name": "Заказчик 20-4",
+        "email": "client204@example.test",
+        "rating": 5
+      }
+    ],
+    "21": [
+      {
+        "customer_id": 2101,
+        "name": "Заказчик 21-1",
+        "email": "client211@example.test",
+        "rating": 3
+      },
+      {
+        "customer_id": 2102,
+        "name": "Заказчик 21-2",
+        "email": "client212@example.test",
+        "rating": 4
+      },
+      {
+        "customer_id": 2103,
+        "name": "Заказчик 21-3",
+        "email": "client213@example.test",
+        "rating": 5
+      },
+      {
+        "customer_id": 2104,
+        "name": "Заказчик 21-4",
+        "email": "client214@example.test",
+        "rating": 1
+      }
+    ],
+    "22": [
+      {
+        "customer_id": 2201,
+        "name": "Заказчик 22-1",
+        "email": "client221@example.test",
+        "rating": 4
+      },
+      {
+        "customer_id": 2202,
+        "name": "Заказчик 22-2",
+        "email": "client222@example.test",
+        "rating": 5
+      },
+      {
+        "customer_id": 2203,
+        "name": "Заказчик 22-3",
+        "email": "client223@example.test",
+        "rating": 1
+      },
+      {
+        "customer_id": 2204,
+        "name": "Заказчик 22-4",
+        "email": "client224@example.test",
+        "rating": 2
+      }
+    ],
+    "23": [
+      {
+        "customer_id": 2301,
+        "name": "Заказчик 23-1",
+        "email": "client231@example.test",
+        "rating": 5
+      },
+      {
+        "customer_id": 2302,
+        "name": "Заказчик 23-2",
+        "email": "client232@example.test",
+        "rating": 1
+      },
+      {
+        "customer_id": 2303,
+        "name": "Заказчик 23-3",
+        "email": "client233@example.test",
+        "rating": 2
+      },
+      {
+        "customer_id": 2304,
+        "name": "Заказчик 23-4",
+        "email": "client234@example.test",
+        "rating": 3
+      }
+    ],
+    "24": [
+      {
+        "customer_id": 2401,
+        "name": "Заказчик 24-1",
+        "email": "client241@example.test",
+        "rating": 1
+      },
+      {
+        "customer_id": 2402,
+        "name": "Заказчик 24-2",
+        "email": "client242@example.test",
+        "rating": 2
+      },
+      {
+        "customer_id": 2403,
+        "name": "Заказчик 24-3",
+        "email": "client243@example.test",
+        "rating": 3
+      },
+      {
+        "customer_id": 2404,
+        "name": "Заказчик 24-4",
+        "email": "client244@example.test",
+        "rating": 4
+      }
+    ],
+    "25": [
+      {
+        "customer_id": 2501,
+        "name": "Заказчик 25-1",
+        "email": "client251@example.test",
+        "rating": 2
+      },
+      {
+        "customer_id": 2502,
+        "name": "Заказчик 25-2",
+        "email": "client252@example.test",
+        "rating": 3
+      },
+      {
+        "customer_id": 2503,
+        "name": "Заказчик 25-3",
+        "email": "client253@example.test",
+        "rating": 4
+      },
+      {
+        "customer_id": 2504,
+        "name": "Заказчик 25-4",
+        "email": "client254@example.test",
+        "rating": 5
+      }
+    ],
+    "26": [
+      {
+        "customer_id": 2601,
+        "name": "Заказчик 26-1",
+        "email": "client261@example.test",
+        "rating": 3
+      },
+      {
+        "customer_id": 2602,
+        "name": "Заказчик 26-2",
+        "email": "client262@example.test",
+        "rating": 4
+      },
+      {
+        "customer_id": 2603,
+        "name": "Заказчик 26-3",
+        "email": "client263@example.test",
+        "rating": 5
+      },
+      {
+        "customer_id": 2604,
+        "name": "Заказчик 26-4",
+        "email": "client264@example.test",
+        "rating": 1
+      }
+    ],
+    "27": [
+      {
+        "customer_id": 2701,
+        "name": "Заказчик 27-1",
+        "email": "client271@example.test",
+        "rating": 4
+      },
+      {
+        "customer_id": 2702,
+        "name": "Заказчик 27-2",
+        "email": "client272@example.test",
+        "rating": 5
+      },
+      {
+        "customer_id": 2703,
+        "name": "Заказчик 27-3",
+        "email": "client273@example.test",
+        "rating": 1
+      },
+      {
+        "customer_id": 2704,
+        "name": "Заказчик 27-4",
+        "email": "client274@example.test",
+        "rating": 2
+      }
+    ],
+    "28": [
+      {
+        "customer_id": 2801,
+        "name": "Заказчик 28-1",
+        "email": "client281@example.test",
+        "rating": 5
+      },
+      {
+        "customer_id": 2802,
+        "name": "Заказчик 28-2",
+        "email": "client282@example.test",
+        "rating": 1
+      },
+      {
+        "customer_id": 2803,
+        "name": "Заказчик 28-3",
+        "email": "client283@example.test",
+        "rating": 2
+      },
+      {
+        "customer_id": 2804,
+        "name": "Заказчик 28-4",
+        "email": "client284@example.test",
+        "rating": 3
+      }
+    ],
+    "29": [
+      {
+        "customer_id": 2901,
+        "name": "Заказчик 29-1",
+        "email": "client291@example.test",
+        "rating": 1
+      },
+      {
+        "customer_id": 2902,
+        "name": "Заказчик 29-2",
+        "email": "client292@example.test",
+        "rating": 2
+      },
+      {
+        "customer_id": 2903,
+        "name": "Заказчик 29-3",
+        "email": "client293@example.test",
+        "rating": 3
+      },
+      {
+        "customer_id": 2904,
+        "name": "Заказчик 29-4",
+        "email": "client294@example.test",
+        "rating": 4
+      }
+    ],
+    "30": [
+      {
+        "customer_id": 3001,
+        "name": "Заказчик 30-1",
+        "email": "client301@example.test",
+        "rating": 2
+      },
+      {
+        "customer_id": 3002,
+        "name": "Заказчик 30-2",
+        "email": "client302@example.test",
+        "rating": 3
+      },
+      {
+        "customer_id": 3003,
+        "name": "Заказчик 30-3",
+        "email": "client303@example.test",
+        "rating": 4
+      },
+      {
+        "customer_id": 3004,
+        "name": "Заказчик 30-4",
+        "email": "client304@example.test",
+        "rating": 5
+      }
+    ]
+  }
+}

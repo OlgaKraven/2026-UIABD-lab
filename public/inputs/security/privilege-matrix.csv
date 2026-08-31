@@ -1,0 +1,5 @@
+role,scope,allowed_operations,forbidden_test,user_prefix,host
+service_reader,service_ops.*,SELECT,"INSERT INTO orders ...",reader,localhost
+order_operator,service_ops.orders,"SELECT|INSERT|UPDATE(status)",DROP TABLE orders,operator,localhost
+stock_operator,service_ops.stock_movements,"SELECT|INSERT",DELETE FROM stock_movements,stock,127.0.0.1
+auditor,"service_ops.orders|service_ops.order_status_audit",SELECT,UPDATE orders SET status='DONE',auditor,localhost

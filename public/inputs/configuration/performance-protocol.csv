@@ -1,0 +1,7 @@
+run,cache_state,rows_orders,rows_items,duration_ms,plan_root,rows_examined,notes
+1,cold,,,,,,
+2,warm,,,,,,
+3,warm,,,,,,
+4,warm,,,,,,
+5,warm,,,,,,
+median,warm,,,,,,

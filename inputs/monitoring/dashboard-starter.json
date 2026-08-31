@@ -1,0 +1,8 @@
+{
+  "title": "UIABD — вариант VARIANT_ID",
+  "timezone": "browser",
+  "schemaVersion": 41,
+  "tags": ["uiabd", "training"],
+  "panels": [],
+  "time": {"from": "now-6h", "to": "now"}
+}

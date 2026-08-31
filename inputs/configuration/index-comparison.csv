@@ -1,0 +1,8 @@
+metric,before,after,delta,interpretation
+Index definition,none,,,
+Median duration ms,,,,
+Rows examined,,,,
+Plan access type,,,,
+Extra storage KiB,,,,
+Write-side effect,,,,
+Decision,not applicable,,,keep/change/drop

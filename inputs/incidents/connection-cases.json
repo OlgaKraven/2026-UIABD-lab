@@ -1,0 +1,272 @@
+[
+  {
+    "id": "C01",
+    "variant": 1,
+    "clientError": "ERROR 2003 (HY000): Can't connect: service is not running",
+    "fault": "service_stopped",
+    "allowedChange": "start_service",
+    "serviceSuffix": "01",
+    "expectedPort": 3311
+  },
+  {
+    "id": "C02",
+    "variant": 2,
+    "clientError": "ERROR 2003 (HY000): Can't connect to the configured TCP port",
+    "fault": "wrong_client_port",
+    "allowedChange": "client_port",
+    "serviceSuffix": "02",
+    "expectedPort": 3312
+  },
+  {
+    "id": "C03",
+    "variant": 3,
+    "clientError": "ERROR 1045 (28000): Access denied for the selected user@host",
+    "fault": "host_part_mismatch",
+    "allowedChange": "account_host",
+    "serviceSuffix": "03",
+    "expectedPort": 3313
+  },
+  {
+    "id": "C04",
+    "variant": 4,
+    "clientError": "ERROR 2003 (HY000): Remote address is not accepted",
+    "fault": "bind_address",
+    "allowedChange": "bind_address",
+    "serviceSuffix": "04",
+    "expectedPort": 3314
+  },
+  {
+    "id": "C05",
+    "variant": 5,
+    "clientError": "ERROR 3118 (HY000): Account is locked",
+    "fault": "account_locked",
+    "allowedChange": "unlock_account",
+    "serviceSuffix": "05",
+    "expectedPort": 3315
+  },
+  {
+    "id": "C06",
+    "variant": 6,
+    "clientError": "ERROR 1045 (28000): Access denied with supplied credentials",
+    "fault": "wrong_password",
+    "allowedChange": "reset_training_password",
+    "serviceSuffix": "06",
+    "expectedPort": 3316
+  },
+  {
+    "id": "C07",
+    "variant": 7,
+    "clientError": "ERROR 2003 (HY000): Can't connect: service is not running",
+    "fault": "service_stopped",
+    "allowedChange": "start_service",
+    "serviceSuffix": "07",
+    "expectedPort": 3317
+  },
+  {
+    "id": "C08",
+    "variant": 8,
+    "clientError": "ERROR 2003 (HY000): Can't connect to the configured TCP port",
+    "fault": "wrong_client_port",
+    "allowedChange": "client_port",
+    "serviceSuffix": "08",
+    "expectedPort": 3318
+  },
+  {
+    "id": "C09",
+    "variant": 9,
+    "clientError": "ERROR 1045 (28000): Access denied for the selected user@host",
+    "fault": "host_part_mismatch",
+    "allowedChange": "account_host",
+    "serviceSuffix": "09",
+    "expectedPort": 3319
+  },
+  {
+    "id": "C10",
+    "variant": 10,
+    "clientError": "ERROR 2003 (HY000): Remote address is not accepted",
+    "fault": "bind_address",
+    "allowedChange": "bind_address",
+    "serviceSuffix": "10",
+    "expectedPort": 3320
+  },
+  {
+    "id": "C11",
+    "variant": 11,
+    "clientError": "ERROR 3118 (HY000): Account is locked",
+    "fault": "account_locked",
+    "allowedChange": "unlock_account",
+    "serviceSuffix": "11",
+    "expectedPort": 3321
+  },
+  {
+    "id": "C12",
+    "variant": 12,
+    "clientError": "ERROR 1045 (28000): Access denied with supplied credentials",
+    "fault": "wrong_password",
+    "allowedChange": "reset_training_password",
+    "serviceSuffix": "12",
+    "expectedPort": 3322
+  },
+  {
+    "id": "C13",
+    "variant": 13,
+    "clientError": "ERROR 2003 (HY000): Can't connect: service is not running",
+    "fault": "service_stopped",
+    "allowedChange": "start_service",
+    "serviceSuffix": "13",
+    "expectedPort": 3323
+  },
+  {
+    "id": "C14",
+    "variant": 14,
+    "clientError": "ERROR 2003 (HY000): Can't connect to the configured TCP port",
+    "fault": "wrong_client_port",
+    "allowedChange": "client_port",
+    "serviceSuffix": "14",
+    "expectedPort": 3324
+  },
+  {
+    "id": "C15",
+    "variant": 15,
+    "clientError": "ERROR 1045 (28000): Access denied for the selected user@host",
+    "fault": "host_part_mismatch",
+    "allowedChange": "account_host",
+    "serviceSuffix": "15",
+    "expectedPort": 3325
+  },
+  {
+    "id": "C16",
+    "variant": 16,
+    "clientError": "ERROR 2003 (HY000): Remote address is not accepted",
+    "fault": "bind_address",
+    "allowedChange": "bind_address",
+    "serviceSuffix": "16",
+    "expectedPort": 3326
+  },
+  {
+    "id": "C17",
+    "variant": 17,
+    "clientError": "ERROR 3118 (HY000): Account is locked",
+    "fault": "account_locked",
+    "allowedChange": "unlock_account",
+    "serviceSuffix": "17",
+    "expectedPort": 3327
+  },
+  {
+    "id": "C18",
+    "variant": 18,
+    "clientError": "ERROR 1045 (28000): Access denied with supplied credentials",
+    "fault": "wrong_password",
+    "allowedChange": "reset_training_password",
+    "serviceSuffix": "18",
+    "expectedPort": 3328
+  },
+  {
+    "id": "C19",
+    "variant": 19,
+    "clientError": "ERROR 2003 (HY000): Can't connect: service is not running",
+    "fault": "service_stopped",
+    "allowedChange": "start_service",
+    "serviceSuffix": "19",
+    "expectedPort": 3329
+  },
+  {
+    "id": "C20",
+    "variant": 20,
+    "clientError": "ERROR 2003 (HY000): Can't connect to the configured TCP port",
+    "fault": "wrong_client_port",
+    "allowedChange": "client_port",
+    "serviceSuffix": "20",
+    "expectedPort": 3330
+  },
+  {
+    "id": "C21",
+    "variant": 21,
+    "clientError": "ERROR 1045 (28000): Access denied for the selected user@host",
+    "fault": "host_part_mismatch",
+    "allowedChange": "account_host",
+    "serviceSuffix": "21",
+    "expectedPort": 3331
+  },
+  {
+    "id": "C22",
+    "variant": 22,
+    "clientError": "ERROR 2003 (HY000): Remote address is not accepted",
+    "fault": "bind_address",
+    "allowedChange": "bind_address",
+    "serviceSuffix": "22",
+    "expectedPort": 3332
+  },
+  {
+    "id": "C23",
+    "variant": 23,
+    "clientError": "ERROR 3118 (HY000): Account is locked",
+    "fault": "account_locked",
+    "allowedChange": "unlock_account",
+    "serviceSuffix": "23",
+    "expectedPort": 3333
+  },
+  {
+    "id": "C24",
+    "variant": 24,
+    "clientError": "ERROR 1045 (28000): Access denied with supplied credentials",
+    "fault": "wrong_password",
+    "allowedChange": "reset_training_password",
+    "serviceSuffix": "24",
+    "expectedPort": 3334
+  },
+  {
+    "id": "C25",
+    "variant": 25,
+    "clientError": "ERROR 2003 (HY000): Can't connect: service is not running",
+    "fault": "service_stopped",
+    "allowedChange": "start_service",
+    "serviceSuffix": "25",
+    "expectedPort": 3335
+  },
+  {
+    "id": "C26",
+    "variant": 26,
+    "clientError": "ERROR 2003 (HY000): Can't connect to the configured TCP port",
+    "fault": "wrong_client_port",
+    "allowedChange": "client_port",
+    "serviceSuffix": "26",
+    "expectedPort": 3336
+  },
+  {
+    "id": "C27",
+    "variant": 27,
+    "clientError": "ERROR 1045 (28000): Access denied for the selected user@host",
+    "fault": "host_part_mismatch",
+    "allowedChange": "account_host",
+    "serviceSuffix": "27",
+    "expectedPort": 3337
+  },
+  {
+    "id": "C28",
+    "variant": 28,
+    "clientError": "ERROR 2003 (HY000): Remote address is not accepted",
+    "fault": "bind_address",
+    "allowedChange": "bind_address",
+    "serviceSuffix": "28",
+    "expectedPort": 3338
+  },
+  {
+    "id": "C29",
+    "variant": 29,
+    "clientError": "ERROR 3118 (HY000): Account is locked",
+    "fault": "account_locked",
+    "allowedChange": "unlock_account",
+    "serviceSuffix": "29",
+    "expectedPort": 3339
+  },
+  {
+    "id": "C30",
+    "variant": 30,
+    "clientError": "ERROR 1045 (28000): Access denied with supplied credentials",
+    "fault": "wrong_password",
+    "allowedChange": "reset_training_password",
+    "serviceSuffix": "30",
+    "expectedPort": 3340
+  }
+]

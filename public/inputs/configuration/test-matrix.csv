@@ -1,0 +1,7 @@
+case_id,case_name,order_id,expected_property,actual_result,status,explanation
+T01,Обычный заказ,1001,total equals manual calculation,,,
+T02,Одна позиция,1004,no duplicate multiplication,,,
+T03,Нет норм материалов,1007,material part equals zero,,,
+T04,Несколько норм,1010,each norm counted once,,,
+T05,Нулевое количество,9001,row is rejected or explicitly handled,,,
+T06,Отрицательное количество,9002,row is rejected,,,

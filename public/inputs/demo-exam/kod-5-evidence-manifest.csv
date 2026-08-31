@@ -1,0 +1,9 @@
+task,required_artifact,suggested_name,exists,independent_check,result
+1,ER diagram,ER_VARIANT.pdf,,3NF; keys and relationships are readable,
+2,database creation script,schema_VARIANT.sql,,creates an empty database without manual fixes,
+2,JSON import script,import_customers_VARIANT.sql,,imports only the assigned variant and preserves identifiers,
+3,full order cost query,full_cost_VARIANT.sql,,matches an independent calculation and avoids row multiplication,
+4,information system module,app_VARIANT.zip,,authorization; captcha; lockout; administrator actions,
+5,API source and test collection,api_VARIANT.zip,,GET notes; transformed JSON; tests 200 and 500 and JSON validity,
+6,API documentation,api_documentation_VARIANT.docx,,base URL; methods; parameters; response format; HTTP codes,
+all,short run guide,README_VARIANT.md,,expert can reproduce the sequence without oral comments,

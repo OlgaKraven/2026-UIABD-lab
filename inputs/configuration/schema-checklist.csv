@@ -1,0 +1,11 @@
+object_type,object_name,parent,required_key
+TABLE,branches,service_ops,PRIMARY KEY (branch_id)
+TABLE,customers,service_ops,PRIMARY KEY (customer_id)
+TABLE,services,service_ops,PRIMARY KEY (service_id)
+TABLE,materials,service_ops,PRIMARY KEY (material_id)
+TABLE,orders,service_ops,FK branch_id and customer_id
+TABLE,order_items,service_ops,FK order_id and service_id
+TABLE,material_norms,service_ops,FK service_id and material_id
+TABLE,stock_movements,service_ops,FK material_id
+TABLE,material_balances,service_ops,FK material_id and branch_id
+TABLE,order_status_audit,service_ops,FK order_id

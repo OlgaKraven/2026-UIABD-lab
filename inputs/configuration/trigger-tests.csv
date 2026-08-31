@@ -1,0 +1,5 @@
+test_id,order_id,old_status,new_status,expected_audit_rows,actual_audit_rows,status
+TR01,1001,NEW,NEW,0,,
+TR02,1001,NEW,IN_PROGRESS,1,,
+TR03,1001,IN_PROGRESS,DONE,1,,
+TR04,1004,DONE,CANCELLED,1,,

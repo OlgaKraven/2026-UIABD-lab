@@ -1,0 +1,11 @@
+[mysqld]
+# Замените значения по карточке варианта. Не добавляйте пароль.
+port=PORT_FROM_VARIANT
+datadir=DATADIR_FROM_VARIANT
+character-set-server=utf8mb4
+collation-server=COLLATION_FROM_VARIANT
+log_error=DATADIR_FROM_VARIANT/mysql-error.log
+
+[client]
+port=PORT_FROM_VARIANT
+default-character-set=utf8mb4

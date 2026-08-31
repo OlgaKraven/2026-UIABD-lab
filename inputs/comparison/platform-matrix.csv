@@ -1,0 +1,8 @@
+criterion,weight,mysql_fact,mysql_source_or_evidence,postgresql_fact,postgresql_source_or_evidence,score_mysql,score_postgresql
+Installation and service,1,,,,,,
+Roles and privileges,2,,,,,,
+Data types and identity,1,,,,,,
+Aggregate query,2,,,,,,
+Connection monitoring,2,,,,,,
+Priority from variant,3,,,,,,
+Decision,not scored,,,,,,
