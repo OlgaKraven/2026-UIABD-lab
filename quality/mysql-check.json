@@ -1,0 +1,12 @@
+{
+  "server": "8.4.11",
+  "checks": [
+    "procedure_and_trigger_created",
+    "30_variants_stock_atomicity_duplicate_zero_insufficient",
+    "trigger_same_value_change_rollback_commit",
+    "30_variant_filter_and_cost_reference_results",
+    "backup_recovery_counts_sum_check_table"
+  ],
+  "recovery": "tables_count\n2\nbranches_count\n3\norders_count\ttotal_sum\n5\t53235.75\nbranch_id\torder_count\n1\t2\n2\t2\n3\t1\nTable\tOp\tMsg_type\tMsg_text\nservice_ops_recovery.branches\tcheck\tstatus\tOK\nservice_ops_recovery.incident_orders\tcheck\tstatus\tOK\n",
+  "scope": "isolated Docker MySQL, not Windows service or novice trial"
+}

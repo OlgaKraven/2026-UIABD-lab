@@ -1,0 +1,16 @@
+{
+  "pages": 22,
+  "widths": [
+    1366,
+    390
+  ],
+  "horizontalOverflow": 0,
+  "persistedVariant": 30,
+  "offline": {
+    "variant": 30,
+    "scripts": 0,
+    "externalResources": 0,
+    "tables": 11
+  },
+  "singleAndStudentDownloads": "passed"
+}

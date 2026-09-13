@@ -1,0 +1,26 @@
+[
+  {
+    "scope": "6",
+    "sets": 210,
+    "bytes": 37240893,
+    "status": "passed"
+  },
+  {
+    "scope": "7",
+    "sets": 300,
+    "bytes": 55442914,
+    "status": "passed"
+  },
+  {
+    "scope": "8",
+    "sets": 150,
+    "bytes": 27636655,
+    "status": "passed"
+  },
+  {
+    "scope": "all",
+    "sets": 660,
+    "bytes": 120320417,
+    "status": "passed"
+  }
+]

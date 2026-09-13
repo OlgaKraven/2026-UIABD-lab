@@ -4,4 +4,4 @@ SELECT o.order_id, o.branch_id, o.status, o.order_date,
 FROM orders o
 JOIN order_items oi ON oi.order_id = o.order_id
 JOIN services s ON s.service_id = oi.service_id
-WHERE o.order_date >= :date_from AND o.order_date < :date_to_exclusive;
+WHERE o.order_date >= @date_from AND o.order_date < @date_to_exclusive;

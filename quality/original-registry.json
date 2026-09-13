@@ -1,0 +1,926 @@
+[
+  {
+    "id": {
+      "value": "C3_S6_LR01",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[0].id"
+    },
+    "number": {
+      "value": 1,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[0].number"
+    },
+    "title": {
+      "value": "Установка сервера и первичная настройка",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[0].title"
+    },
+    "semester": {
+      "value": 6,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[0].semester"
+    },
+    "block": {
+      "value": "Сервер баз данных и администрирование его компонентов",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[0].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[0].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Установка и первичная настройка MySQL",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[0].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[0].points"
+    }
+  },
+  {
+    "id": {
+      "value": "C3_S6_LR02",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[1].id"
+    },
+    "number": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[1].number"
+    },
+    "title": {
+      "value": "Проверка службы, каталога данных и подключения",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[1].title"
+    },
+    "semester": {
+      "value": 6,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[1].semester"
+    },
+    "block": {
+      "value": "Сервер баз данных и администрирование его компонентов",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[1].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[1].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Клиент, сервер и роль администратора; подключения и диагностика отказов",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[1].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[1].points"
+    }
+  },
+  {
+    "id": {
+      "value": "C3_S6_LR03",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[2].id"
+    },
+    "number": {
+      "value": 3,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[2].number"
+    },
+    "title": {
+      "value": "Создание базы данных и перенос структуры",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[2].title"
+    },
+    "semester": {
+      "value": 6,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[2].semester"
+    },
+    "block": {
+      "value": "Сервер баз данных и администрирование его компонентов",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[2].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[2].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Размещение, кодировки и объём данных",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[2].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[2].points"
+    }
+  },
+  {
+    "id": {
+      "value": "C3_S6_LR04",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[3].id"
+    },
+    "number": {
+      "value": 4,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[3].number"
+    },
+    "title": {
+      "value": "Загрузка данных из внешнего файла и проверка результата",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[3].title"
+    },
+    "semester": {
+      "value": 6,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[3].semester"
+    },
+    "block": {
+      "value": "Сервер баз данных и администрирование его компонентов",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[3].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[3].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Размещение, кодировки и объём данных",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[3].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[3].points"
+    }
+  },
+  {
+    "id": {
+      "value": "C3_S6_LR05",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[4].id"
+    },
+    "number": {
+      "value": 5,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[4].number"
+    },
+    "title": {
+      "value": "Создание пользователей и настройка прав",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[4].title"
+    },
+    "semester": {
+      "value": 6,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[4].semester"
+    },
+    "block": {
+      "value": "Сервер баз данных и администрирование его компонентов",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[4].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[4].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Учётные записи и наименьшие привилегии",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[4].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[4].points"
+    }
+  },
+  {
+    "id": {
+      "value": "C3_S6_LR06",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[5].id"
+    },
+    "number": {
+      "value": 6,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[5].number"
+    },
+    "title": {
+      "value": "Поиск и устранение неисправности подключения",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[5].title"
+    },
+    "semester": {
+      "value": 6,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[5].semester"
+    },
+    "block": {
+      "value": "Сервер баз данных и администрирование его компонентов",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[5].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[5].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Подключения и диагностика отказов",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[5].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[5].points"
+    }
+  },
+  {
+    "id": {
+      "value": "C3_S6_LR07",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[6].id"
+    },
+    "number": {
+      "value": 7,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[6].number"
+    },
+    "title": {
+      "value": "Чтение журнала и поиск следов неисправности",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[6].title"
+    },
+    "semester": {
+      "value": 6,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[6].semester"
+    },
+    "block": {
+      "value": "Сервер баз данных и администрирование его компонентов",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[6].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[6].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Журнал сервера и разбор неисправности",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[6].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[6].points"
+    }
+  },
+  {
+    "id": {
+      "value": "C4_S7_LR01",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[7].id"
+    },
+    "number": {
+      "value": 1,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[7].number"
+    },
+    "title": {
+      "value": "Выборка и фильтрация данных",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[7].title"
+    },
+    "semester": {
+      "value": 7,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[7].semester"
+    },
+    "block": {
+      "value": "Выполнение запросов, автоматизация и требования к конфигурации",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[7].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[7].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Запросы на серверной базе и рост данных",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[7].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[7].points"
+    }
+  },
+  {
+    "id": {
+      "value": "C4_S7_LR02",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[8].id"
+    },
+    "number": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[8].number"
+    },
+    "title": {
+      "value": "Соединение таблиц и проверка результата",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[8].title"
+    },
+    "semester": {
+      "value": 7,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[8].semester"
+    },
+    "block": {
+      "value": "Выполнение запросов, автоматизация и требования к конфигурации",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[8].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[8].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Запросы на серверной базе и рост данных",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[8].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[8].points"
+    }
+  },
+  {
+    "id": {
+      "value": "C4_S7_LR03",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[9].id"
+    },
+    "number": {
+      "value": 3,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[9].number"
+    },
+    "title": {
+      "value": "Группировка и агрегирование",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[9].title"
+    },
+    "semester": {
+      "value": 7,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[9].semester"
+    },
+    "block": {
+      "value": "Выполнение запросов, автоматизация и требования к конфигурации",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[9].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[9].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Запросы на серверной базе и рост данных",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[9].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[9].points"
+    }
+  },
+  {
+    "id": {
+      "value": "C4_S7_LR04",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[10].id"
+    },
+    "number": {
+      "value": 4,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[10].number"
+    },
+    "title": {
+      "value": "Запрос полной стоимости заказа",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[10].title"
+    },
+    "semester": {
+      "value": 7,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[10].semester"
+    },
+    "block": {
+      "value": "Выполнение запросов, автоматизация и требования к конфигурации",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[10].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[10].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Расчётный запрос и проверка правдоподобия",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[10].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[10].points"
+    }
+  },
+  {
+    "id": {
+      "value": "C4_S7_LR05",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[11].id"
+    },
+    "number": {
+      "value": 5,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[11].number"
+    },
+    "title": {
+      "value": "Проверка расчётного запроса на правдоподобие и граничные случаи",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[11].title"
+    },
+    "semester": {
+      "value": 7,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[11].semester"
+    },
+    "block": {
+      "value": "Выполнение запросов, автоматизация и требования к конфигурации",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[11].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[11].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Расчётный запрос и проверка правдоподобия",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[11].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[11].points"
+    }
+  },
+  {
+    "id": {
+      "value": "C4_S7_LR06",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[12].id"
+    },
+    "number": {
+      "value": 6,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[12].number"
+    },
+    "title": {
+      "value": "Разработка хранимой процедуры",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[12].title"
+    },
+    "semester": {
+      "value": 7,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[12].semester"
+    },
+    "block": {
+      "value": "Выполнение запросов, автоматизация и требования к конфигурации",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[12].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[12].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Хранимые процедуры и триггеры",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[12].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[12].points"
+    }
+  },
+  {
+    "id": {
+      "value": "C4_S7_LR07",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[13].id"
+    },
+    "number": {
+      "value": 7,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[13].number"
+    },
+    "title": {
+      "value": "Разработка триггера для учётной операции",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[13].title"
+    },
+    "semester": {
+      "value": 7,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[13].semester"
+    },
+    "block": {
+      "value": "Выполнение запросов, автоматизация и требования к конфигурации",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[13].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[13].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Хранимые процедуры и триггеры",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[13].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[13].points"
+    }
+  },
+  {
+    "id": {
+      "value": "C4_S7_LR08",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[14].id"
+    },
+    "number": {
+      "value": 8,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[14].number"
+    },
+    "title": {
+      "value": "Поиск причины медленного запроса и измерение результата",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[14].title"
+    },
+    "semester": {
+      "value": 7,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[14].semester"
+    },
+    "block": {
+      "value": "Выполнение запросов, автоматизация и требования к конфигурации",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[14].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[14].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Производительность запросов и индексы",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[14].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[14].points"
+    }
+  },
+  {
+    "id": {
+      "value": "C4_S7_LR09",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[15].id"
+    },
+    "number": {
+      "value": 9,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[15].number"
+    },
+    "title": {
+      "value": "Создание индекса и повторная проверка",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[15].title"
+    },
+    "semester": {
+      "value": 7,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[15].semester"
+    },
+    "block": {
+      "value": "Выполнение запросов, автоматизация и требования к конфигурации",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[15].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[15].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Производительность запросов и индексы",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[15].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[15].points"
+    }
+  },
+  {
+    "id": {
+      "value": "C4_S7_LR10",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[16].id"
+    },
+    "number": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[16].number"
+    },
+    "title": {
+      "value": "Требования к серверной конфигурации и сравнение вариантов",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[16].title"
+    },
+    "semester": {
+      "value": 7,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[16].semester"
+    },
+    "block": {
+      "value": "Выполнение запросов, автоматизация и требования к конфигурации",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[16].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[16].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Требования к серверу и локальной сети",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[16].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[16].points"
+    }
+  },
+  {
+    "id": {
+      "value": "C4_S8_LR01",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[17].id"
+    },
+    "number": {
+      "value": 1,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[17].number"
+    },
+    "title": {
+      "value": "Подключение сбора показателей и проверка поступления данных",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[17].title"
+    },
+    "semester": {
+      "value": 8,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[17].semester"
+    },
+    "block": {
+      "value": "Наблюдение за работой сервера и выявление технических проблем",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[17].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[17].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Сбор и хранение метрик",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[17].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[17].points"
+    }
+  },
+  {
+    "id": {
+      "value": "C4_S8_LR02",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[18].id"
+    },
+    "number": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[18].number"
+    },
+    "title": {
+      "value": "Создание панели наблюдения и графиков показателей",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[18].title"
+    },
+    "semester": {
+      "value": 8,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[18].semester"
+    },
+    "block": {
+      "value": "Наблюдение за работой сервера и выявление технических проблем",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[18].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[18].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Панель наблюдения и оповещения",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[18].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[18].points"
+    }
+  },
+  {
+    "id": {
+      "value": "C4_S8_LR03",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[19].id"
+    },
+    "number": {
+      "value": 3,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[19].number"
+    },
+    "title": {
+      "value": "Настройка порогового значения и интерпретация изменения показателей",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[19].title"
+    },
+    "semester": {
+      "value": 8,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[19].semester"
+    },
+    "block": {
+      "value": "Наблюдение за работой сервера и выявление технических проблем",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[19].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[19].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Панель наблюдения и оповещения",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[19].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[19].points"
+    }
+  },
+  {
+    "id": {
+      "value": "C4_S8_LR04",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[20].id"
+    },
+    "number": {
+      "value": 4,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[20].number"
+    },
+    "title": {
+      "value": "Определение причины неисправности и восстановление работоспособности",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[20].title"
+    },
+    "semester": {
+      "value": 8,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[20].semester"
+    },
+    "block": {
+      "value": "Наблюдение за работой сервера и выявление технических проблем",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[20].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[20].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Разбор инцидента и восстановление",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[20].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[20].points"
+    }
+  },
+  {
+    "id": {
+      "value": "C4_S8_LR05",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[21].id"
+    },
+    "number": {
+      "value": 5,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[21].number"
+    },
+    "title": {
+      "value": "Сравнение MySQL и PostgreSQL по заданной учебной ситуации",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[21].title"
+    },
+    "semester": {
+      "value": 8,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[21].semester"
+    },
+    "block": {
+      "value": "Наблюдение за работой сервера и выявление технических проблем",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[21].block"
+    },
+    "durationAcademicHours": {
+      "value": 2,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[21].durationAcademicHours"
+    },
+    "topic": {
+      "value": "Сравнение MySQL и PostgreSQL",
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[21].topic"
+    },
+    "points": {
+      "value": 10,
+      "status": "взято из первоначального проекта",
+      "source": "content/labs.json[21].points"
+    }
+  }
+]

@@ -43,3 +43,6 @@ next-env.d.ts
 *.tsbuildinfo
 __pycache__/
 *.pyc
+
+/site-public/
+/private/

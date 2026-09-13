@@ -1,0 +1,11 @@
+{
+  "preserved": "22 identities, 220 points, 30 variants and all original stand components",
+  "changes": [
+    "MySQL volume loader syntax and repeatability",
+    "Orders 1013–1030 added to match existing variants",
+    "Monitoring thresholds corrected by units and direction",
+    "Independent miniature examples in 22 labs",
+    "New monitoring period with missing-data case"
+  ],
+  "pending": "Full subject and artifact verification"
+}

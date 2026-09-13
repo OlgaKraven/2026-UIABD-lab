@@ -14,4 +14,4 @@ SELECT o.order_id, /* service, material, total */
 FROM orders o
 LEFT JOIN service_cost sc ON sc.order_id = o.order_id
 LEFT JOIN material_cost mc ON mc.order_id = o.order_id
-WHERE o.order_id = :order_id;
+WHERE o.order_id = @order_id;
