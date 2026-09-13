@@ -3,8 +3,8 @@
   "variants": 30,
   "combinations": 660,
   "totals": {
-    "6": 70,
-    "7": 100,
+    "6": 25,
+    "7": 25,
     "8": 50
   },
   "protectedIdentity": true,

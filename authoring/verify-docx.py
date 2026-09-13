@@ -5,6 +5,10 @@ from docx.oxml.ns import qn
 R=Path(__file__).resolve().parents[1];labs=json.loads((R/'src/data/labs.json').read_text(encoding='utf-8-sig'))['labs'];out=[]
 for l in labs:
  p=R/'public/reports'/l['reportFile'];d=Document(p)
+ score_tables=[t for t in d.tables if [c.text for c in t.rows[0].cells]==['Результат','Баллы']]
+ assert len(score_tables)==1
+ assert [float(row.cells[1].text.replace(',','.')) for row in score_tables[0].rows[1:]]==[r['points'] for r in l['rubric']],l['slug']
+ assert abs(sum(r['points'] for r in l['rubric'])-l['points'])<1e-9
  with zipfile.ZipFile(p) as z:
   assert all(b'TargetMode="External"' not in z.read(n) for n in z.namelist() if n.endswith('.rels'))
   xml=z.read('word/document.xml').decode();assert l['title'] in ''.join(d._element.xpath('//w:t/text()'))

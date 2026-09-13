@@ -2,13 +2,13 @@
   {
     "scope": "6",
     "sets": 210,
-    "bytes": 37258278,
+    "bytes": 37259787,
     "status": "passed"
   },
   {
     "scope": "7",
     "sets": 300,
-    "bytes": 55441154,
+    "bytes": 55443789,
     "status": "passed"
   },
   {
@@ -20,7 +20,7 @@
   {
     "scope": "all",
     "sets": 660,
-    "bytes": 120362900,
+    "bytes": 120367044,
     "status": "passed"
   }
 ]

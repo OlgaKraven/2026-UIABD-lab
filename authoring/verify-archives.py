@@ -11,6 +11,7 @@ for scope in ['6','7','8','all']:
    for v in range(1,31):
     prefix=f'V{v:02}/ЛР{lab["slug"]}/';html=z.read(prefix+'Начните_здесь.html').decode('utf-8')
     assert lab['title'] in html and f'V{v:02}' in html
+    assert f'Критерии оценки · {lab["points"]} баллов' in html,(lab['slug'],v,'wrong points in HTML')
     assert originals['inputs/demo-exam/kod-5-variants.csv']['rows'][v-1]['enterprise_profile'] in html
     matrix=originals[f'inputs/variants/{"c3" if lab["semester"]==6 else "c4"}-s{lab["semester"]}-variants.csv']['rows'][v-1]
     conditions=list(csv.reader(io.StringIO(z.read(prefix+'Данные/Условия_варианта.csv').decode('utf-8-sig')),delimiter=';'))
