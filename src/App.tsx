@@ -23,6 +23,7 @@ import labsPayload from './data/labs.json'
 import { labMethodology, type StepGuide } from './data/methodology'
 
 import {resolveLab} from './lib/resolveLab'
+import {variantConditions} from './lib/variantConditions'
 import {personalizeText} from './lib/personalize'
 
 import {SiteControls, usePreferences, PreferencesProvider} from './Preferences'
@@ -319,7 +320,7 @@ function LabPage({ lab, subjectArea, profile, onSubjectAreaChange }: { lab: Lab;
               <div className="choice-callout"><strong>Профессиональный выбор</strong><p>{labText(lab.professionalChoice)}</p></div>
             </ContentSection>
             <ContentSection id="inputs" number="Б" label="Стартовый пакет" title="Пояснение к задаче по предметной области" icon={<Layers3 aria-hidden="true" />}>
-              <div className="variant-source-note"><strong>Набор {subjectArea.code}</strong><p>На странице и в ZIP-пакете показаны данные только для «{subjectArea.title}». Системный код: <code>{subjectArea.systemCode}</code>.</p><DownloadButton labs={[lab]} area={subjectArea} profile={profile}/></div>
+              <div className="variant-source-note"><strong>Набор {subjectArea.code}</strong><p>На странице и в ZIP-пакете — условия выбранного варианта для этой работы. Общие таблицы стенда используются вместе с индивидуальными параметрами ниже.</p><DownloadButton labs={[lab]} area={subjectArea} profile={profile}/></div>
               <p>{labText(lab.sourceData.intro)}</p>
               {lab.sourceData.sections.map((section) => (
                 <div className="data-section" key={section.title}>
@@ -339,11 +340,7 @@ function LabPage({ lab, subjectArea, profile, onSubjectAreaChange }: { lab: Lab;
             </ContentSection>
             <ContentSection id="profile" number="В" label="Ваш вариант" title="Условия вашего варианта" icon={<ShieldCheck aria-hidden="true" />}>
               <p className="profile-intro">Для варианта {subjectArea.code} используйте значения ниже. Они определяют условия выполнения задания.</p>
-              <div className="characteristic-grid">{profile.characteristics.map((item) => (
-                <article className="characteristic-card" key={item.code}>
-                  <span>{item.code}</span><h3>{item.name}</h3><strong>{item.value}</strong><p>{item.example.replaceAll('{system}', subjectArea.title)}</p>
-                </article>
-              ))}</div>
+              <ResponsiveTable data={{columns:['Параметр','Значение'],rows:variantConditions(lab)}} />
             </ContentSection>
             <ContentSection id="example" number="Г" label="Разобранный пример" title={methodology.example.title} icon={<BookOpen aria-hidden="true" />}>
               <div className="worked-example">
@@ -452,14 +449,10 @@ function SubjectAreaPicker({ value, profile, onChange, compact = false }: { valu
       <div className="variant-picker-copy">
         <p className="eyebrow">Один вариант для всех работ · {subjectAreas.length} вариантов</p>
         <h2 id={titleId}>{value.code} · {value.title}</h2>
-        <p>Номер варианта сохраняется в пределах семестра. Параметры каждой работы приведены в её данных.</p>
+        <p>Названия предприятий сохранены из исходных вариантов подготовки к демоэкзамену. В остальных работах различаются параметры сервера, запросов, нагрузки и мониторинга. Общая структура стенда может совпадать.</p>
       </div>
       <label className="variant-select"><span>Вариант</span><select value={value.id} onChange={(event) => onChange(Number(event.target.value))}>{subjectAreas.map((area) => <option key={area.code} value={area.id}>{area.code} · {area.title}</option>)}</select></label>
-      <dl className="variant-facts">
-        <div><dt>Система</dt><dd><code>{value.systemCode}</code></dd></div>
-        <div><dt>Группа</dt><dd>{profile.variantRange} · {profile.title}</dd></div>
-        <div><dt>Критичная функция</dt><dd>{value.criticalFunction}</dd></div>
-      </dl>
+      {!compact&&<div className="characteristic-grid">{profile.characteristics.map(item=><article className="characteristic-card" key={item.code}><span>{item.code}</span><h3>{item.name}</h3><strong>{item.value}</strong><p>{item.example}</p></article>)}</div>}
       {!compact&&<DownloadButton labs={labs} area={value} profile={profile} all/>}
     </section>
   )

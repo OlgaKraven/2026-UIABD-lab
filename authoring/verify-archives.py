@@ -2,6 +2,7 @@ from pathlib import Path
 import zipfile,json,csv,io,hashlib,re
 R=Path(__file__).resolve().parents[1];W=R.parent
 labs=json.loads((R/'src/data/labs.json').read_text(encoding='utf-8-sig'))['labs'];results=[]
+originals=json.loads((R/'authoring/original-variants.json').read_text(encoding='utf-8'))
 for scope in ['6','7','8','all']:
  selected=[l for l in labs if scope=='all' or str(l['semester'])==scope];p=W/f'lab-{scope}.zip'
  with zipfile.ZipFile(p) as z:
@@ -10,6 +11,11 @@ for scope in ['6','7','8','all']:
    for v in range(1,31):
     prefix=f'V{v:02}/ЛР{lab["slug"]}/';html=z.read(prefix+'Начните_здесь.html').decode('utf-8')
     assert lab['title'] in html and f'V{v:02}' in html
+    assert originals['inputs/demo-exam/kod-5-variants.csv']['rows'][v-1]['enterprise_profile'] in html
+    matrix=originals[f'inputs/variants/{"c3" if lab["semester"]==6 else "c4"}-s{lab["semester"]}-variants.csv']['rows'][v-1]
+    conditions=list(csv.reader(io.StringIO(z.read(prefix+'Данные/Условия_варианта.csv').decode('utf-8-sig')),delimiter=';'))
+    actual={row[1]:row[2] for row in conditions[1:]}
+    assert all(actual.get(k)==value for k,value in matrix.items()),(lab['slug'],v,'original conditions mismatch')
     assert not re.search(r'<(?:script|link|button)\b',html)
     assert not re.search(r'https?://[^\s<"]*lecture',html,re.I)
     assert not re.search(r'ориентир \d+ минут|durationAcademicHours|private/qa',html)

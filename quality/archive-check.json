@@ -2,25 +2,25 @@
   {
     "scope": "6",
     "sets": 210,
-    "bytes": 37240893,
+    "bytes": 37258278,
     "status": "passed"
   },
   {
     "scope": "7",
     "sets": 300,
-    "bytes": 55442914,
+    "bytes": 55441154,
     "status": "passed"
   },
   {
     "scope": "8",
     "sets": 150,
-    "bytes": 27636655,
+    "bytes": 27664170,
     "status": "passed"
   },
   {
     "scope": "all",
     "sets": 660,
-    "bytes": 120320417,
+    "bytes": 120362900,
     "status": "passed"
   }
 ]

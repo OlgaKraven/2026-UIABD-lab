@@ -220,6 +220,8 @@ tbody tr:last-child td { border-bottom: 0; }
 .task-protocol dd { margin: 0; color: #4e4e55; font-size: 0.88rem; line-height: 1.48; }
 .profile-intro { margin-bottom: 1rem; }
 .characteristic-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem; }
+.variant-picker > .characteristic-grid { grid-column: 1 / -1; }
+.characteristic-card strong { overflow-wrap: anywhere; }
 .characteristic-card { min-height: 11rem; padding: 1.05rem; border: 1px solid var(--border); border-left: 0.22rem solid var(--blue); border-radius: 0.78rem; background: var(--surface-3); }
 .characteristic-card > span { color: var(--blue); font-size: 0.7rem; font-weight: 900; letter-spacing: 0.08em; }
 .characteristic-card h3 { margin: 0.35rem 0 0.5rem; font-size: 1rem; }

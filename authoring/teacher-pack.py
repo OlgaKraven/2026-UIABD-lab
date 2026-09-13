@@ -17,12 +17,13 @@ keys=[]
 for l in labs:
  if l['semester']!=8 or l['number']>4:continue
  for v in range(1,31):
-  d=datasets[l['slug']][str(v)];c=dict(d['conditions']['table']['rows']);table=d['sections'][0]['table'];idx=table['columns'].index(c['metric']);warning=float(c['warning_threshold']);critical=float(c['critical_threshold']);direction=c['direction']
+  d=datasets[l['slug']][str(v)];c=dict(d['conditions']['table']['rows']);table=d['sections'][0]['table'];idx=table['columns'].index(c['metric']);warning=float(c['warning_threshold']);critical=float(c['critical_threshold']);direction='below' if c['metric']=='disk_free_pct' else 'above'
   out=[]
   for row in table['rows']:
    value=float(row[idx]);status='no_data' if row[-1]=='missing' else ('critical' if (value>critical if direction=='above' else value<critical) else 'warning' if (value>warning if direction=='above' else value<warning) else 'normal')
+   if direction=='below' and warning>=critical and status!='no_data':status='requires_threshold_clarification'
    out.append({'id':row[0],'value':value,'instant_state':status})
-  keys.append({'lab':l['slug'],'variant':v,'metric':c['metric'],'states':out})
+  keys.append({'lab':l['slug'],'variant':v,'metric':c['metric'],'warning':warning,'critical':critical,'directionAssumption':direction,'states':out})
 (R/'private/monitoring-keys.json').write_text(json.dumps(keys,ensure_ascii=False,indent=2),encoding='utf-8')
 shutil.copy2(R/'quality/original-registry.json',R/'private/original-registry.json')
 (R/'private/planning.json').write_text(json.dumps([{'lab':l['slug'],'minutes':times[i],'sourceAcademicHours':2,'status':'author estimate; novice trial not performed'} for i,l in enumerate(labs)],ensure_ascii=False,indent=2),encoding='utf-8')

@@ -1,6 +1,7 @@
 import {strToU8,zipSync} from 'fflate'
 import {personalizeText} from './personalize'
 import {labMethodology} from '../data/methodology'
+import {variantConditions} from './variantConditions'
 import type {Lab,SubjectArea,QualityProfile} from '../types'
 
 
@@ -26,7 +27,7 @@ async function buildFiles({labs,area,profile,renderPage}:{labs:Lab[];area:Subjec
  const csvNames:string[]=[];
  lab.sourceData.sections.forEach((section,index)=>{if(!section.table)return;const name=section.title.endsWith('.csv')?section.title:`Данные_${String(index+1).padStart(2,'0')}.csv`;csvNames.push(name);files[dir+'Данные/'+name]=strToU8(csv([section.table.columns,...section.table.rows].map(row=>row.map(cell=>typeof cell==='string'?text(cell):cell))));});
  csvNames.push('Условия_варианта.csv');
- files[dir+'Данные/Условия_варианта.csv']=strToU8(csv([['Вариант','Область','Система','Условие','Значение','Пример'],...profile.characteristics.map(item=>[area.code,area.title,area.systemCode,item.name,item.value,item.example.replaceAll('{system}',area.title)])]));
+ files[dir+'Данные/Условия_варианта.csv']=strToU8(csv([['Вариант','Параметр','Значение'],...variantConditions(lab).map(row=>[area.code,...row])]));
  const doc=new DOMParser().parseFromString(renderPage(lab),'text/html');
  const body=doc.createElement('main');
  const title=doc.createElement('h1');title.textContent=`ЛР ${lab.slug}. ${lab.title}`;body.append(title);
